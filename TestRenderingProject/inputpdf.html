@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<link rel='stylesheet' href='bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='report.css' type='text/css' media='all' />
+<style>
+    .table-background {
+        background: rgb(211, 115, 201);
+    }
+    .total-background {
+        background: #D373C9;
+    }
+    .details-background {
+        background: rgba(211, 115, 201, 0.1);
+        padding: 23px 25px;
+    }
+    .top-border {
+        margin: 0px -25px;
+        border-top: solid 2px #D373C9;
+    }
+    .top-border-line {
+        border-top: solid 1px #D373C9;
+        margin: -1px 0px 0px 0px;
+    }
+    .bottom-border {
+        border-bottom: solid 1px #D373C9;
+    }
+    .font-colour {
+        color: White;
+    }
+    .total-font-colour {
+        color: White;
+    }
+    .address-label-col {
+width: 40%;    }
+    .address-value-col {
+width: 60%;    }
+</style>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<body class="basic-html-body">
+    <div class="row" style="margin-bottom: 60px; margin-left: -25px; margin-right: -20px;">
+    <div class="col col-md-6" style="text-align: left;">
+        <img style="max-width: 500px; max-height: 180px;" />
+    </div>
+    <div class="col col-md-6" style="float: right; text-align: right; white-space: pre-line; padding-left: 20px;">row 1
+row 2
+row 3
+row 4
+row 5
+row 6</div>
+</div>
+
+    <div class="row" style="line-height: 34px; margin-left: -25px; margin-right: -20px;">
+        <div class="col col-md-6" style="text-align: left;">
+            <div class="title header report-number">
+Draft Quote            </div>
+        </div>
+        <div class="col col-md-6" style="text-align: right;">
+            <div class="title header report-number">
+                QT00008
+            </div>
+        </div>
+    </div>
+    <div class="row top-border report-info-container" style="word-break: break-word;">
+        <div class="row details-background report-info">
+            <div class="col col-md-4" style="width: 30%;">
+Test Customer <br />
+Test <br />
+Address <br />
+1234 <br />
+01234 <br />
+United Kingdom <br />
+            </div>
+            <div class="col col-md-5" style="text-align: left; width: 34%; padding-left: 20px;">
+                <div class="row">
+                    <div class="col col-md-5 address-label-col">
+                        <span class="header">Site</span>
+                    </div>
+                    <div class="col col-md-7 address-value-col">
+                        Test Site 123
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-5 address-label-col">
+                        <span class="header">Site Address</span>
+                    </div>
+                    <div class="col col-md-7 address-value-col">
+test <br />
+city <br />
+state <br />
+Brazil <br />
+code <br />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-5 address-label-col">
+                        <span class="header">Reference</span>
+                    </div>
+                    <div class="col col-md-7 address-value-col">
+                        test data
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3" style="width: 36%; padding-left: 20px;">
+                <div class="row">
+                    <div class="col col-md-6" style="width: 40%;">
+                        <span class="header">Date</span>
+                    </div>
+                    <div class="col col-md-6" style="width: 60%;">
+                        29 March 2022
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6" style="width: 40%;">
+                        <span class="header">Expiry Date</span>
+                    </div>
+                    <div class="col col-md-6" style="width: 60%;">
+                        28 April 2022
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6" style="width: 40%;">
+                        <span class="header">VAT Number</span>
+                    </div>
+                    <div class="col col-md-6" style="width: 60%;">
+                        987654411
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row formatted-text-area-container">
+        <div class="formatted-text-area col col-md-12" style="padding: 0px 15px;">
+            <div style="font-size: 13pt; font-family: Roboto-Regular, Helvetica, Arial, sans-serif; color: rgba(0, 0, 0, 1)">
+<div style="font-size: 13pt; font-family: Segoe UI; color: rgba(71, 71, 71, 1)">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</p>
+</div>
+</div>
+        </div>
+    </div>
+    <div style="page-break-inside: avoid;">
+    <div class="row table-header table-background font-colour header" style="padding: 8px 12px; margin: 0px -25px;">
+        <div style="text-align: right">
+            <div class="description col col-md-3">
+                Description
+            </div>
+            <div class="col col-md-2" style="float:right; width:14%;">
+                Amount
+            </div>
+        </div>
+    </div>
+        <div>
+            <div class="row" style="padding-bottom: 8px; padding-top: 8px; margin: 0px -25px;">
+    <div style="page-break-inside: avoid;" class="col-md-12 invoice-line">
+        <div style="text-align: right; display: flex;">
+            <div class="description col col-md-3" style="flex: 1 0 auto;">
+                <div class="item" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</div>
+            </div>
+            <div class="col col-md-2" style="width:14%;">
+                <div class="item">6.00</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <div class="row bottom-border" style="padding-bottom: 8px; padding-top: 8px; margin: 0px -25px;">
+        <div style="page-break-inside: avoid;" class="col-md-12 invoice-line">
+            <div style="text-align: right; display: flex;">
+                <div class="description col col-md-3" style="flex: 1 0 auto;">
+                    <div class="item" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</div>
+                </div>
+                <div class="col col-md-2" style="width:14%;">
+                    <div class="item">0.00</div>
+                </div>
+            </div>
+        </div>
+        <div style="page-break-inside: avoid;" class="col-md-12 invoice-line">
+            <div style="text-align: right; display: flex;">
+                <div class="description col col-md-3" style="flex: 1 0 auto;">
+                    <div class="item" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</div>
+                </div>
+                <div class="col col-md-2" style="width:14%;">
+                    <div class="item">8.12</div>
+                </div>
+            </div>
+        </div>
+        <div style="page-break-inside: avoid;" class="col-md-12 invoice-line">
+            <div style="text-align: right; display: flex;">
+                <div class="description col col-md-3" style="flex: 1 0 auto;">
+                    <div class="item" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</div>
+                </div>
+                <div class="col col-md-2" style="width:14%;">
+                    <div class="item">0.00</div>
+                </div>
+            </div>
+        </div>
+        <div style="page-break-inside: avoid;" class="col-md-12 invoice-line">
+            <div style="text-align: right; display: flex;">
+                <div class="description col col-md-3" style="flex: 1 0 auto;">
+                    <div class="item" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</div>
+                </div>
+                <div class="col col-md-2" style="width:14%;">
+                    <div class="item">116.71</div>
+                </div>
+            </div>
+        </div>
+        <div style="page-break-inside: avoid;" class="col-md-12 invoice-line">
+            <div style="text-align: right; display: flex;">
+                <div class="description col col-md-3" style="flex: 1 0 auto;">
+                    <div class="item" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</div>
+                </div>
+                <div class="col col-md-2" style="width:14%;">
+                    <div class="item">689.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row bottom-border top-border-line" style="margin: -1px -25px 0px -25px; padding: 0px 25px;">
+        <div class="col-md-12 header" style="padding: 10px 0px 4px 0px;">
+            <div class="col col-md-10" style="float:left;">
+                <div class="item" style="text-align: left;">Items section</div>
+            </div>
+            <div class="col col-md-2 header" style="float:right; text-align:right; width:14%;">
+                <div class="item">172.61</div>
+            </div>
+        </div>
+        <div class="col-md-12" style="padding: 0px 0px 10px 0px;">
+            <div style="display: flex;">
+                <div class="description col col-md-3" style="flex: 1 0 auto;">
+                    <div class="item" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</div>
+                </div>
+                <div class="col col-md-2" style="width:14%;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row top-border-line" style="padding: 3px 13px 5px 25px; margin: -1px -25px 0px -25px; page-break-inside: avoid;">
+        <div class="col col-md=6"></div>
+        <div class="col col-md-6" style="float:right; text-align: right; margin-top: 30px;">
+            <div class="row" style="padding: 0px 0px 4px 0px;">
+                <div class="col col-md-8">
+                    Subtotal
+                </div>
+                <div class="col col-md-4">
+                    992.44
+                </div>
+            </div>
+            <div class="row" style="padding: 4px 0px;">
+                <div class="col col-md-8">
+                    Total 20% VAT
+                </div>
+                <div class="col col-md-4">
+                    198.48
+                </div>
+            </div>
+            <div class="row table-header total-background total-font-colour report-total">
+                <div class="col col-md-8 header">
+                    Total GBP                </div>
+                <div class="col col-md-4 header">
+                    1,190.92
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="min-height: 40px; margin: 25px -15px 0px -15px; padding-top: 5px;">
+        <div class="col col-md-12 formatted-text-area" style="padding: 0px 15px;">
+            <div style="font-size: 13pt; font-family: Roboto-Regular, Helvetica, Arial, sans-serif; color: rgba(0, 0, 0, 1)">
+<div style="font-size: 11pt; font-family: Arial"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper tortor quis laoreet vehicula. Praesent laoreet elit a imperdiet fermentum. In elementum sapien eu dolor scelerisque vulputate sed ut ligula. Nullam id elit orci. Suspendisse potenti. Aliquam id diam tempor, vulputate ex non, scelerisque mi. Phasellus tristique iaculis risus, at auctor lectus fringilla at. Suspendisse vestibulum nibh et odio iaculis, sit amet scelerisque nulla scelerisque. Nam ultrices venenatis leo. Aliquam ornare, neque quis blandit condimentum, diam nisi placerat felis, eget congue nisl libero at arcu. Morbi pulvinar ligula in posuere luctus. Integer diam risus, tempus quis felis in, ullamcorper tincidunt turpis. Mauris consectetur faucibus feugiat.</span></div>
+</div>
+        </div>
+    </div>
+</body>
+</html>

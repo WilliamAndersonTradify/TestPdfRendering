@@ -1,0 +1,149 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Content\bootstrap-extend.css" />
+    <None Remove="Content\bootstrap-grid.css" />
+    <None Remove="Content\bootstrap-grid.min.css" />
+    <None Remove="Content\bootstrap-grid.rtl.css" />
+    <None Remove="Content\bootstrap-grid.rtl.min.css" />
+    <None Remove="Content\bootstrap-reboot.css" />
+    <None Remove="Content\bootstrap-reboot.min.css" />
+    <None Remove="Content\bootstrap-reboot.rtl.css" />
+    <None Remove="Content\bootstrap-reboot.rtl.min.css" />
+    <None Remove="Content\bootstrap-theme.css" />
+    <None Remove="Content\bootstrap-theme.min.css" />
+    <None Remove="Content\bootstrap-utilities.css" />
+    <None Remove="Content\bootstrap-utilities.min.css" />
+    <None Remove="Content\bootstrap-utilities.rtl.css" />
+    <None Remove="Content\bootstrap-utilities.rtl.min.css" />
+    <None Remove="Content\bootstrap.css" />
+    <None Remove="Content\bootstrap.js" />
+    <None Remove="Content\bootstrap.min.css" />
+    <None Remove="Content\bootstrap.min.js" />
+    <None Remove="Content\bootstrap.rtl.css" />
+    <None Remove="Content\bootstrap.rtl.min.css" />
+    <None Remove="Content\bootstrap_2.css" />
+    <None Remove="Content\jquery-3.6.0.js" />
+    <None Remove="Content\jquery-3.6.0.min.js" />
+    <None Remove="Content\jquery-3.6.0.slim.js" />
+    <None Remove="Content\jquery-3.6.0.slim.min.js" />
+    <None Remove="Content\npm.js" />
+    <None Remove="Content\report.css" />
+    <None Remove="Content\Roboto-Bold.ttf" />
+    <None Remove="Content\Roboto-Regular.ttf" />
+    <None Remove="Content\Site.css" />
+    <None Remove="inputpdf.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\bootstrap-extend.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-grid.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-grid.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-grid.rtl.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-grid.rtl.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-reboot.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-reboot.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-reboot.rtl.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-reboot.rtl.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-theme.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-theme.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-utilities.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-utilities.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-utilities.rtl.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-utilities.rtl.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.rtl.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.rtl.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap_2.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\jquery-3.6.0.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\jquery-3.6.0.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\jquery-3.6.0.slim.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\jquery-3.6.0.slim.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\npm.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\report.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Roboto-Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Roboto-Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Site.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputpdf.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Select.Pdf.NetCore.Blink.x64" Version="21.2.0" />
+    <PackageReference Include="Select.Pdf.NetCore.x64" Version="21.2.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,79 @@
+﻿@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('Roboto-Bold.ttf') format('truetype');
+}
+
+.basic-html-body {
+    margin: 25px 25px 0px 25px;
+    font-family: Roboto-Regular;
+    font-size: 17px;
+    line-height: 26px;
+    color: black;
+    overflow: visible;
+}
+
+.formatted-text-area-container {
+    margin: 15px -15px;
+    line-height: 1.5 !important
+}
+
+.report-info-container {
+    display: block;
+}
+
+.report-number {
+    margin-bottom: 25px;
+    font-size: 38px;
+}
+
+.report-info {
+    margin-left: 0px;
+}
+
+.report-total {
+    margin-right: -25px;
+    padding: 15px 13px 15px 0px;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.header {
+    font-family: Roboto-Bold;
+}
+
+.col {
+    min-height: 1px;
+}
+
+.description {
+    float: left;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.formatted-text-area {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.invoice-line-nogroup {
+    padding: 9px 23px;
+}
+
+.invoice-line {
+    padding: 3px 23px;
+}
+
+.item {
+    display: block;
+    white-space: pre-line;
+    page-break-inside: avoid !important;
+    text-align: right;
+    overflow-wrap: break-word;
+    width: 100%;
+}
